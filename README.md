@@ -1,2 +1,2 @@
-# facultad
-Repo destinado a tareas de la facu.
+# Facultad
+Repositorio destinado a tareas de la facultad.
