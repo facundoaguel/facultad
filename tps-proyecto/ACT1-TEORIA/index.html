@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosIA.css">
+    <title>Proyeco de Software - Actividad 1T</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="barra-navegacion">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#mantenimiento">Mantenimiento</a></li>
+                <li><a href="#catalogo">Catalogo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="catalogo">
+            <a href="#pdf">ACTIVIDAD 1 - PROYECTO DE SOFTWARE</a>
+        </div>
+        <!-- Contenido del catálogo -->
+        <section id="catalogo" class="catalogo">
+            <h2>Catálogo de Dibujos</h2>
+                <ul id="categoria" class="barra-navegacion">
+                    <li><a href="#anime">Anime</a> </li>
+                    <li><a href="#caricaturas">Caricaturas</a></li>
+                    <li><a href="#paisajes">Paisajes</a></li>
+                </ul>
+            <!-- Categoría Anime -->
+            <div id="anime" class="categoria">
+                <h3>Anime</h3>
+                <div class="imagenes-categoria">
+                    <img src="imagenes/anime/anime1.png" alt="Anime 1">
+                    <img src="imagenes/anime/anime2.png" alt="Anime 2">
+                </div>
+            </div>
+    
+            <!-- Categoría Caricaturas -->
+            <div id="caricaturas" class="categoria">
+                <h3>Caricaturas</h3>
+                <div class="imagenes-categoria">
+                    <img src="imagenes/caricaturas/caricatura1.png" alt="Caricatura 1">
+                    <img src="imagenes/caricaturas/caricatura2.png" alt="Caricatura 2">
+                </div>
+            </div>
+    
+            <!-- Categoría Paisajes -->
+            <div id="paisajes" class="categoria">
+                <h3>Paisajes</h3>
+                <div class="imagenes-categoria">
+                    <img src="imagenes/paisajes/paisaje1.png" alt="Paisaje 1">
+                    <img src="imagenes/paisajes/paisaje2.png" alt="Paisaje 2">
+                </div>
+            </div>
+        </section>
+
+        <section  id="mantenimiento" class="catalogo">
+            <H3>Quienes somos?</H3>
+            <br>
+            <p>Este sitio es mantenido por Facundo Aguel, con gran ayuda de ChatGPT.</p>
+        </section>
+    </main>
+
+    <section>
+        <!-- Formulario de contacto -->
+        <form id="formulario-contacto">
+            <h2 id="contacto">Contacto</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+
+        
+    </section>
+
+    <footer class="catalogo">
+        <h2 id="pdf">ENUNCIADO</h2>
+        <img src="imagenes/enunciado.jpg" alt="enunciado">
+    </footer>
+</body>
+</html>

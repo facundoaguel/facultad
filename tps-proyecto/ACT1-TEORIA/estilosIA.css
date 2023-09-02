@@ -1,0 +1,168 @@
+/* Reset de estilos y estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    text-align: center;
+}
+
+.barra-navegacion {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.barra-navegacion li {
+    margin: 0 10px;
+}
+
+.barra-navegacion a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos del catálogo */
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.catalogo img {
+    margin: 10px;
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* Estilos del formulario de contacto */
+#formulario-contacto {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#formulario-contacto h2 {
+    margin-bottom: 10px;
+}
+
+#formulario-contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#formulario-contacto input[type="text"],
+#formulario-contacto input[type="email"],
+#formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#formulario-contacto button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#formulario-contacto button:hover {
+    background-color: #555;
+}
+
+
+/* Estilos para la sección del catálogo */
+.catalogo {
+    display: grid;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Centra el contenido */
+    align-items: center;
+}
+
+.catalogo h2 {
+    margin-bottom: 20px;
+}
+
+
+.categoria h3 {
+    margin-bottom: 10px;
+}
+
+/* Estilos para las imágenes dentro de cada categoría */
+.imagenes-categoria {
+    display: grid; /* Utiliza una grid para las imágenes */
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas con tamaño igual */
+    gap: 10px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+}
+
+.imagenes-categoria img {   
+    border: 2px solid lightcoral;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 15%;
+}
+
+/* Estilos para los enlaces de categoría */
+.categoria-link {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilos para las categorías */
+.categoria {
+    text-align: center;
+    margin: 20px;
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+
+.labelCatalogo{
+    color: #fff;
+}
+
+/* Muestra una imagen por fila en pantallas pequeñas */
+@media (max-width: 800px) {
+    .imagenes-categoria {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
